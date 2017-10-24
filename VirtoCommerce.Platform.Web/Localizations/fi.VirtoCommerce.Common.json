@@ -1,0 +1,133 @@
+{
+  "platform": {
+    "commands": {
+      "add": "Lisää",
+      "activate": "Aktivoi",
+      "assign": "Määritä",
+      "cancel": "Peruuta",
+      "clear": "Tyhjennä",
+      "clear-all": "Tyhjennä kaikki",
+      "clone": "Kloonaa",
+      "close": "Sulje",
+      "confirm": "Vahvista",
+      "copy-link": "Kopioi linkki",
+      "create": "Luo",
+      "cut": "Leikkaa",
+      "delete": "Poista",
+      "download": "Lataa palvelmelta",
+      "edit": "Muokaa",
+      "export": "Eksportoi",
+      "generate": "Generoi",
+      "import": "Importoi",
+      "install": "Asenna",
+      "manage": "Hallinnoi",
+      "more": "Lisää",
+      "no": "Ei",
+      "new-folder": "Uusi kansio",
+      "new-license": "Uudista lisenssi",
+      "ok": "Ok",
+      "paste": "Liitä",
+      "pick-selected": "Vahvista valinta",
+      "preview": "Esikatselu",
+      "open-browser": "Avaa selaimessa",
+      "redo": "Uudestaan",
+      "refresh": "Päivitä",
+      "remove": "Poista",
+      "reset": "Resetoi",
+      "restart": "Käynnistä uudestaan",
+      "save": "Tallenna",
+      "send": "Lähetä",
+      "select-all": "Valise kaikki",
+      "settings": "Asetukset",
+      "sign-out": "Kirjaudu ulos",
+      "undo": "Peruuta",
+      "uninstall": "Poista asennus",
+      "unselect-all": "Poista valinnat",
+      "update": "Päivitä",
+      "upload": "Lataa palvelimelle",
+      "yes": "Kyllä",
+      "add-new-property": "Lisää uusi ominaisuus",
+      "manage-type-properties": "Hallinnoi tyyppiominaisuuksia",
+      "manage-profile": "Hallinnoi profiilia",
+      "minimize": "Pienennä",
+      "maximize": "Suurenna",
+      "stop-sending": "Lopeta lähetys",
+      "set-active": "Aseta aktiiviseksi",
+      "reject-user": "Estä käyttäjä",
+      "approve-user": "Hyväksy käyttäjä",
+      "change-password": "Muuta salasana",
+      "unlock-account": "Poista tilin lukitus",
+      "today": "Tänään"
+    },
+    "list": {
+      "no-data": "Ei tietoja",
+      "count": "Lukumäärä"
+    },
+    "placeholders": {
+        "n-a": "Ei saatavilla",
+        "no-file": "Valitse tiedosto",
+        "search-keyword": "Haun avainsana..."
+    },
+    "dialogs": {
+      "delete": {
+        "title": "Vahvista poisto",
+        "message": "Haluatko varmasti poistaa valitut kohteet?"
+      }
+    },
+    "properties": {
+      "short-text": {
+        "title": "Lyhyt teksti",
+        "description": "Alle 1024 merkin pituinen teksti."
+      },
+      "long-text": {
+        "title": "Pitkä teksti",
+        "description": "Pitkä teksti ilman merkkimäärän rajoitusta."
+      },
+      "integer": {
+        "title": "Kokonaisluku",
+        "description": "Kokonaisluku."
+      },
+      "decimal": {
+        "title": "Desimaaliluku",
+        "description": "Desimaaliluku 18 merkin ja kahden desimaalin tarkkuudella."
+      },
+      "date-time": {
+        "title": "Päivämäärä ja aika",
+        "description": "Valitse päivämäärä ja aika."
+      },
+      "boolean": {
+        "title": "Totuusarvo",
+        "description": "Vaihda arvoa."
+      },
+      "html": {
+        "title": "HTML",
+        "description": "HTML-koodi."
+      },
+      "undefined": {
+        "title": "Ei määritetty"
+      }
+    },
+    "genericValueInput": {
+        "placeholders": {
+            "short-text": "Syötä lyhyt teksti",
+            "secure-string": "Syötä suojattu teksti",
+            "email": "Syötä sähköpostiosoite",
+            "url": "Syötä URL",
+            "long-text": "Syötä pitkä teksti",
+            "integer": "Syötä kokonaisluku",
+            "number": "Syötä desimaaliluku",
+            "date-time": "Valise päivämäärä",
+            "short-text-multivalue": "Lisää arvo",
+            "integer-multivalue": "Lisää kokonaisluku",
+            "number-multivalue": "Lisää desimaaliluku",
+            "short-text-dictionary": "Valitse arvo",
+            "short-text-dictionary-multivalue": "Valitse arvo",
+            "short-text-multilang": "Syötä arvo",
+            "long-text-multilang": "Syötä arvo",
+            "short-text-multivalue-multilang": "Lisää arvo",
+            "short-text-dictionary-multilang": "Valitse arvo",
+            "short-text-dictionary-multivalue-multilang": "Valitse arvo"
+        }
+    }
+  }
+}

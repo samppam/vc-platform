@@ -1,0 +1,794 @@
+﻿{
+    "platform": {
+        "menu": {
+            "home": "Etusivu",
+            "browse": "Selaa",
+            "configuration": "Konfiguraatio",
+            "notifications": "Ilmoitukset",
+            "more": "Lisää",
+            "settings": "Asetukset",
+            "dynamic-properties": "Dynaamiset ominaisuudet",
+            "security": "Turva-asetukset",
+            "modules": "Moduulit",
+            "export-import": "Tietojen vienti ja tuonti",
+            "user-profile": "Käyttäjäprofiili",
+            "assets": "Resurssit",
+            "toggle-favorites": "Shift + Space muuttaa suosikin valintaa"
+        },
+        "navigation": {
+            "back": "Takaisin",
+            "bread-crumb-top": "Kaikki"
+        },
+        "blades": {
+            "asset-list": {
+                "title": "Resurssien hallinta",
+                "labels": {
+                    "picture": "Kuva",
+                    "name": "Nimi",
+                    "size": "Koko",
+                    "modified": "Muokattu",
+                    "actions": "Toimenpiteet",
+                    "group": "Ryhmä",
+                    "language": "Kieli" 
+                }
+            },
+            "asset-upload": {
+                "title": "Resurssin lataus järjestelmään",
+                "labels": {
+                    "select-files": "Valitse tiedostot",
+                    "drag-note": "Raahaa ja pudota tiedostot tähän",
+                    "progress": "Edistyminen",
+                    "asset-uploaded": "Resurssi(t) ladattu järjestelmään."
+                },
+                "placeholders": {
+                    "image-url": "Liitä tiedoston URL tähän"
+                }
+            },
+            "operation-list": {
+                "labels": {
+                    "login": "Kirjaudu",
+                    "details": "Tiedot",
+                    "time": "Aika"
+                }
+            },
+            "dynamicObject-list": {
+                "title": "Dynaamiset objektityypit",
+                "subtitle": "Valitse objektityyppi, jonka ominaisuuksia hallitaan",
+                "labels": {
+                    "no-objects": "Ei objekteja, jotka tukevat dynaamisia ominaisuuksia."
+                }
+            },
+            "dynamicProperty-detail": {
+                "title": "Hallitse ominaisuutta",
+                "subtitle": "Hallitse ominaisuutta",
+                "subtitle-new": "Uusi ominaisuus",
+                "labels": {
+                    "property-name": "Ominaisuuden nimi",
+                    "required": "Pakollinen",
+                    "multivalue": "Moniarvoinen",
+                    "multilingual": "Monikielinen",
+                    "dictionary": "Sanakirja",
+                    "description": "Kuvaus",
+                    "display-order": "Näyttöjärjestys",
+                    "display-name": "Näyttönimi",
+                    "value-type": "Arvon tyyppi",
+                    "dictionary-values": "Sanakirjan arvot",
+                    "manage-dictionary": "Hallitse sanakirjaa"
+                },
+                "placeholders": {
+                    "description": "Syötä ominaisuuden kuvaus",
+                    "display-name": "Syötä näyttönimi...",
+                    "display-order": "Näytön järjestys"
+                },
+                "validations": {
+                    "multivalue": "Moniarvoinen ominaisuus tukee vain lyhytteksti, kokonaisluku tai desimaaliluku tyyppejä.",
+                    "multilingual": "Vain teksti tai HTML arvo voi olla monikielinen.",
+                    "dictionary": "Vain lyhyttekstisanakirjat ovat tuettuja."
+                }
+            },
+            "dynamicProperty-list": {
+                "subtitle": "Hallitse dynaamisia ominaisuuksia",
+                "labels": {
+                    "no-properties": "Ei dynaamisia ominaisuuksia."
+                }
+            },
+            "property-dictionary": {
+                "title": "Sanakirjojen arvot",
+                "subtitle": "Hallitse sanakirjojen arvoja",
+                "labels": {
+                    "edit-value": "Muokkaa arvoa",
+                    "new-value": "Uusi arvo",
+                    "dictionary-name": "Sankirjakohteen nimi",
+                    "localized-values": "Käännösarvot",
+                    "current-values": "Nykyiset arvot",
+                    "name": "Nimi",
+                    "values": "Arvot"
+                },
+                "validations": {
+                  "dictionary-name-required": "Pakollinen",
+                  "dictionary-name": "Löytyi nimen duplikaatti",
+                  "localized-values-required": "Pakollinen",
+                  "localized-values": "Löytyi nimen duplikaatti",
+                  "dictionary": "Vain lyhyttekstisanakirjat ovat tuettuja."
+                },
+                "placeholders": {
+                    "dictionary-name": "Syötä nimi",
+                    "localized-values": "Syötä arvo"
+                }
+            },
+            "propertyValue-list": {
+                "title": "Ominaisuuksien arvot",
+                "subtitle": "Muokaa ominaisuuksien arvoja",
+                "labels": {
+                    "no-properties": "Tällä kohteella ei ole vielä dynaamisia ominaisuuksia. Valitse 'Hallitse tyyppien ominaisuuksia' ja lisää ominaisuuksia. Avaan nykyinen kohde uudestaan ladataksesi dynaamiset ominaisuudeet."
+                }
+            },
+            "export-main": {
+                "title": "Tietojen vienti",
+                "labels": {
+                    "platform-entries": "Alustan kohteet",
+                    "choose-modules": "Valitse vietävät moduulit",
+                    "download-url": "Lataus url",
+                    "errors": "Virheet",
+                    "start-export": "Käynnistä vienti",
+                    "start": "Käynnistä",
+                    "end": "Lopeta"
+                },
+                "menu": {
+                    "security": {
+                        "title": "Turvallisuus",
+                        "description": "Tilit ja roolit"
+                    },
+                    "binary": {
+                        "title": "Binäärinen",
+                        "description": "Binääridata"
+                    },
+                    "settings": {
+                        "title": "Asetukset",
+                        "description": "Alusta asetukset"
+                    }
+                }
+            },
+            "import-main": {
+                "title": "Tietojen tuonti",
+                "labels": {
+                    "start-import": "Käynnistä tuonti",
+                    "select-file": "Valitse tuotava zip-tiedosto. Tiedoston tulee olla Commerce Managerin muodostama vientitiedosto.",
+                    "upload-progress": "Latauksen edistyminen",
+                    "import-data-information": "Tuonnin tiedot",
+                    "author": "Luoja",
+                    "data-file-created": "Datatiedoston luontipvm",
+                    "created-platform-version": "Luotu alustaversiossa",
+                    "platform-entries": "Alustan koheet",
+                    "choose-modules": "Valitse tuotavat moduulit",
+                    "no-data": "Ei tietoja",
+                    "errors": "Virheet",
+                    "start": "Käynnistä",
+                    "end": "Lopeta"
+                },
+                "menu": {
+                    "security": {
+                        "title": "Turvallisuus",
+                        "description": "Tilit ja roolit"
+                    },
+                    "binary": {
+                        "title": "Binäärinen",
+                        "description": "Binääridata"
+                    },
+                    "settings": {
+                        "title": "Asetukset",
+                        "description": "Alustan asetukset"
+                    }
+                }
+            },
+            "exportImport-main": {
+                "title": "Tietojen vienti ja tuonti",
+                "menu": {
+                    "export": {
+                        "title": "Vienti",
+                        "description": "Tiedot tallenetaan eriksene ladattavaan tiedostoon."
+                    },
+                    "import": {
+                        "title": "Tuonti",
+                        "description": "Tuo aiemmin viedyt tiedot tiedostosta."
+                    }
+                }
+            },
+            "notification-journal-details": {
+                "title": "Ilmoituksen tiedot",
+                "labels": {
+                    "notification-info": "Ilmoituksen tiedot",
+                    "display-name": "Näyttönimi",
+                    "source": "Lähde",
+                    "sending-gateway": "Lähetyksen lähde",
+                    "active": "Aktiivinen",
+                    "not-active": "Ei aktiivinen",
+                    "start-sending-date": "Lähetyksen aloituspvm",
+                    "sent-success": "Lähetys onnistui",
+                    "not-sent": "Ei lähetetty",
+                    "sent": "Lähetetty",
+                    "sent-date": "Lähetyspvm",
+                    "sender": "Lähettäjä",
+                    "recipient": "Vastaanottaja",
+                    "sending-attempts-count": "Lähetysyrityksiä",
+                    "last-fail-attempt-date": "Viimeisimmän epäonnistuneen lähetyksen pvm",
+                    "last-fail-attempt-message": "Viimeisimän epäonnistumisen virheviesti"
+                }
+            },
+            "notifications-edit-template": {
+                "title": "Muokkaa ilmoituksen mallipohjaa",
+                "title-new": "Luo ilmoituksen mallipohja",
+                "labels": {
+                    "note": "Tämä on ilmoituksen parametrilistaus. Voit liimata tämän koodin ja parametrien arvot lisätään mallipohjaasi",
+                    "parameter-name": "Parametrin nimi",
+                    "parameter-description": "Parametrin kuvaus",
+                    "paremeter-code": "Parametrin koodi mallipohjassa (kopioi tämä koodi mallipohjaasi)",
+                    "language": "Kieli",
+                    "blank-note": "Jätä tyhjäksi jos haluat käyttää oletusarvoa",
+                    "sender": "Lähettäjä",
+                    "recipient": "Vastaanottaja",
+                    "subject": "Aihe",
+                    "body": "Leipäteksti"
+                },
+                "placeholders": {
+                    "language": "Valitse..."
+                }
+            },
+            "notifications-menu": {
+                "subtitle": "Työskentely ilmoitusjärjestelmän kanssa"
+            },
+            "notification-templates-list": {
+                "title": "Ilmoitusten mallipohjat",
+                "labels": {
+                    "subject": "Aihe",
+                    "body": "Leipäteksti",
+                    "language": "Kieli"
+                }
+            },
+            "notifications-test-resolve": {
+                "title": "Ilmoituksen esikatselu",
+                "subtitle": "Syötä testidata tyypille {{type}}",
+                "labels": {
+                    "test": "Testi",
+                    "enter-test-data": "Syötä testidata"
+                }
+            },
+            "notifications-test-send": {
+                "title": "Lähetä ilmoitus",
+                "subtitle": "Syötä testidata tyypille {{type}}",
+                "labels": {
+                    "send": "Lähetä",
+                    "enter-test-data": "Syötä testidata"
+                }
+            },
+            "notifications-journal": {
+                "title": "Ilmoitushistoria",
+                "subtitle": "Tarkastele ilmoitushistoriaa",
+                "labels": {
+                    "display-name": "Näyttönimi",
+                    "recipient": "Vastaanottaja",
+                    "sent-date": "Lähetyspvm",
+                    "channel": "Kanava",
+                    "error": "Virhe",
+                    "processing": "Prosessoidaan",
+                    "success": "Onnistui",
+                    "no-notifications": "Ei ilmoituksia"
+                }
+            },
+            "notifications-list": {
+                "title": "Ilmoitukset",
+                "subtitle": "Tarkastele ilmoitusten mallipohjia",
+                "labels": {
+                    "no-notifications": "Ei rekisteröityjä ilmoituksia"
+                }
+            },
+            "resolve-result": {
+                "title": "Esikatsele tulosta",
+                "labels": {
+                    "subject": "Aihe",
+                    "body": "Leipäteksti"
+                }
+            },
+            "module-settings-detail": {
+                "title": "Moduulin asetukset"
+            },
+            "module-wizard-progress-step": {
+                "title-install": "Moduulin asennus",
+                "title-update": "Moduulin päivitys",
+                "title-uninstall": "Moduulin asennuksen poisto",
+                "labels": {
+                    "start": "Käynnistä",
+                    "end": "Lopeta",
+                    "progress-messages": "Edistymisilmoitukset",
+                    "process-completed": "Moduulin asennus valmis.",
+                    "restart-application": "Uudelleenkäynnistä järjestelnä heti tai myöhempämä ajankohtana."
+                }
+            },
+            "module-detail": {
+                "title": "Moduulin tiedot",
+              "labels": {
+                "i-accept-the": "Hyväksyn ehdot",
+                "license-link": "lisenssi",
+                "license": "Lisenssi",
+                "agreement": "sopimus.",
+                "install-from-file": "Asenna / päivitä moduuli tiedostosta",
+                "select-module-file": "Lataa keskitetyn moduulihakemiston ulkopuolisen moduulin zip-tiedosto",
+                "upload-progress": "Latauksen edistyminen",
+                "module-info": "Moduulin tiedot",
+                "title": "Otsikko",
+                "author": "Tekijä",
+                "authors": "Tekijät",
+                "id": "ID",
+                "version": "Versio",
+                "project-information": "Projektin tiedot",
+                "description": "Kuvaus",
+                "platform-version": "Alustaversio",
+                "dependencies": "Riippuvuudet",
+                "tags": "Tagit",
+                "install-version": "Asenna versio",
+                "errors": "Virheet"
+              }
+            },
+            "modules-main": {
+                "title": "Moduulit",
+                "labels": {
+                    "updates": "Päivitykset",
+                    "available": "Saatavilla",
+                    "installed": "Asennettu",
+                    "withErrors": "Virheet",
+                    "advanced": "Edistyt"
+                }
+            },
+            "modules-list": {
+                "subtitle": "Moduulien hallinta",
+                "labels": {
+                    "grouping": "Näytä moduulikokoonpanot",
+                    "ungrouped": "Muut",
+                    "no-updates": "Pävityksiä ei löydy.",
+                    "no-modules-part1": "Ei uusia moduuleja asennettavaksi.",
+                    "no-installed-modules": "Asennettuja moduuleita ei löydy.",
+                    "icon": "Kuvake",
+                    "up-to-date": "Moduuli on ajan tasalla", 
+                    "update-available": "Moduulille on saatavilla päivitys", 
+                    "module": "Moduuli",
+                    "version": "Versio",
+                    "author": "Tekijä"
+                }
+            },
+            "history": {
+                "title": "Järjestelmätapahtumat",
+                "subtitle": "Tapahtumahistoria",
+                "labels": {
+                    "type": "Tyyppi",
+                    "title": "Otsikko",
+                    "created": "Luotu"
+                }
+            },
+            "historyDetailDefault": {
+                "title": "Tapahtuman tiedot",
+                "subtitle": "Tapahtuman tiedot"
+            },
+            "menuHeader": {
+                "labels": {
+                    "history": "Historia",
+                    "clear-recent": "Tyhjennä kaikki viimeaikaiset"
+                }
+            },
+            "account-api": {
+                "title": "API-tili",
+                "title-new": "Uusi API-tili",
+                "labels": {
+                    "is-active": "Aktiivinen",
+                    "account-name": "Tilin nimi",
+                    "account-type": "Tilin tyyppi",
+                    "app-id": "App ID",
+                    "secret-key": "Suojausavain"
+                },
+                "placeholders": {
+                    "account-name": "Syötä nimi",
+                    "account-type": "Valinta...",
+                    "secret-key": "Generoi suojausavain",
+                    "app-id": "Generoi..."
+                }
+            },
+            "account-api-list": {
+                "labels": {
+                    "is-active": "Aktiivinen",
+                    "name": "Nimi"
+                }
+            },
+            "account-changePassword": {
+                "labels": {
+                    "current-password": "Nykyinen salasana",
+                    "new-password": "Uusi salasana",
+                    "repeat-password": "Vahvista salasana"
+                },
+                "validations": {
+                    "current-password": "Pakollinen",
+                    "new-password": "Vanha ja uusi salasana ovat samat!",
+                    "repeat-password": "Uusi salasana ja vahvistus eroavat toisistaan!"
+                },
+                "placeholders": {
+                    "current-password": "Syötä nykyinen salasana",
+                    "new-password": "Syötä uusi salasana",
+                    "repeat-password": "Vahvista uusi salasana"
+                }
+            },
+            "account-resetPassword": {
+                "subtitle": "Muuta salasanasi",
+                "labels": {
+                    "new-password": "Uusi salasana",
+                    "repeat-password": "Vahvista salasana"
+                },
+                "validations": {
+                    "repeat-password": "Uusi salasana ja vahvistus eroavat toisistaan!"
+                },
+                "placeholders": {
+                    "new-password": "Syötä uusi salasana",
+                    "repeat-password": "Vahvista uusi salasana"
+                }
+            },
+            "account-detail": {
+                "title-new": "Uusi tili",
+              "labels": {
+                "user-information": "Käyttäjätiedot",
+                "is-administrator": "Järjelmänvalvoja",
+                "account-type": "Tilin tyyppi",
+                "login": "Login",
+                "account-state": "Tilin tila",
+                "account-email": "Sähköposti",
+                "locked-state": "Lukitus" 
+              },
+                "placeholders": {
+                  "account-type": "Valitse ...",
+                  "email": "Syötä sähköposti",
+                  "user-name": "Syötä käyttäjänimi"  
+                }
+            },
+            "account-list": {
+                "title": "Käyttäjät",
+                "subtitle": "Turvapalvelu",
+                "labels": {
+                    "name": "Nimi",
+                    "account-type": "Tilin tyyppi",
+                    "login": "Login",
+                    "state": "Tila"
+                }
+            },
+            "role-detail": {
+                "subtitle": "Roolin tiedot",
+                "labels": {
+                    "summary": "Yhteenveto",
+                    "name": "Nimi",
+                    "description": "Kuvaus",
+                    "assigned-permissions": "Annetut oikeudet",
+                    "permission-name": "Nimi",
+                    "assigned-scopes": "Annetut rajaukset",
+                    "no-permissions-assigned": "Ei annettuja oikeuksia"
+                },
+                "placeholders": {
+                    "name": "Syötä nimi",
+                    "description": "Syötä kuvaus"
+                }
+            },
+            "account-roles": {
+                "subtitle": "Assign roles",
+                "labels": {
+                    "select-roles": "Select roles to assign",
+                    "no-roles": "No roles to assign."
+                }
+            },
+            "account-roles-list": {
+                "title": "",
+                "labels": {
+                    "assigned-roles": "Annetut roolit",
+                    "no-assigned": "Ei annettuja rooleja."
+                }
+            },
+            "permission-scopes": {
+                "subtitle": "Konfiguroi käyttöoikeusrajaukset",
+                "labels": {
+                    "select-bounded-scopes": "Valitse rajaukset",
+                    "selected": "Valittu",
+                    "scope-name": "Rajauksen nimi ja parametrit",
+                    "no-scopes": "Ei rajauksia."
+                }
+            },
+            "role-permissions": {
+                "subtitle": "Anna oikeuksia",
+                "labels": {
+                    "select-permissions": "Valitse annettavat oikeukdet"
+                }
+            },
+            "new-role-wizard": {
+                "title": "Uusi rooli",
+                "labels": {
+                    "summary": "Yhteenveto",
+                    "name": "Nimi",
+                    "description": "Kuvaus",
+                    "assign-permissions": "Anna oikeudet"
+                },
+                "placeholders": {
+                    "name": "Syötä nimi",
+                    "description": "Syötä kuvaus"
+                }
+            },
+            "role-list": {
+                "title": "Roolit",
+                "subtitle": "Turvallisuuspalvelu",
+                "labels": {
+                    "name": "Nimi"
+                }
+            },
+            "login": {
+                "labels": {
+                    "sign-in": "Kirjaudu sisään {{title}} Manageriin",
+                    "login": "Käyttäjänimi",
+                    "password": "Salasana",
+                    "remember-me": "Muista minut",
+                    "forgot-password": "Unohtuiko salasana?",
+                    "log-in": "Kirjaudu"
+                }
+            },
+            "forgotpassword": {
+                "title": "Unohtuiko salasana?",
+                "labels": {
+                    "login": "Käyttäjänimi tai sähköpostiosoite",
+                    "description": "Lähetämme sinulle sähköpostin, jossa on ohjeet salasanasi resetointiin.",
+                    "success": "Ohjeet on lähetetty sähköpostiisi.",
+                    "fail": "Pahoittelut, tämän käyttäjän salasanan resetointi epäonnistui.",
+                    "back": "Takaisin",
+                    "submit": "Lähetä"
+                },
+                "placeholders": {
+                    "login-or-email": "Anna käyttäjänimi tai salasana"
+                }
+            },
+            "resetpassword": {
+                "title": "Salasanan resetointi",
+              "labels": {
+                "success": "Salasanasi resetoitiin",
+                "fail": "Pahoittelut, tämän käyttäjän salasanan resetointi epäonnistui.",
+                "submit": "Resetoi",
+                "log-in": "Kirjaudu"
+              }
+            },
+            "license": {
+                "title": "Nykyinen lisenssi",
+                "title-new": "Uuden lisenssin aktivointi",
+                "license-info": "Lisenssin tiedot",
+                "license-activation": "Lisenssin aktivointi",
+                "labels": {
+                    "info-running-no-license": "Tätä Virto Commerce-instassia ajetaan",
+                    "info-open-source-license": "Open Source Community -lisenssi.",
+                    "info0": "Haetaan tai hankitaan lisenssi:",
+                    "info1": "Lähetä ",
+                    "info2": "Prosessoimme pyyntösi ja otamme pian yhteyttä.",
+                    "info3": "Kun saat aktivointikoodin (\"Activation Code\") ja/tau lisenssitiedoston täytä yksi alla olevista aktivointikentistä.",
+                    "info4": "Järjstelmä näyttää uuden lisenssisi tiedot. Tarkista tiedot ja valitse \"Aktivoi\" vahvistaaksesi.",
+                    "customer": "Lisenssi myönnetty",
+                    "type": "Tyyppi",
+                    "expiration": "Vanhentuminen",
+                    "email": "Asiakkaan sähköposti",
+                    "request-license": "Lisenssin pyyntölomake.",
+                    "code-descr": "Syötä vastaanottamasi lisenssin aktivointikoodi (\"Activation Code\") ja paina enteriä [Enter]. Tämä on nopein tapa aktivoida lisenssi. (Vaatii internetyhteyden)",
+                    "file-descr": "Vaihtoehtoisesti voit antaa vastaanottamasi lisenssitiedoston. (Offline-aktivointi)",
+                    "upload-progress": "Latauksen edistyminen",
+                    "errors": "Virhe aktivoitaessa"
+                },
+                "placeholders": {
+                    "code": "Syötä aktivointikoodi"
+                }
+            },
+            "new-account-wizard": {
+                "labels": {
+                    "login": "Käyttäjänimii",
+                    "email": "Sähköposti",
+                    "password": "Salasana",
+                    "repeat-password": "Vahvista salasana",
+                    "assign-roles": "Anna rooleja"
+                },
+                "placeholders": {
+                    "email": "Syötä sähköpostiosoite",
+                    "login": "Syötä käyttäjänimi",
+                    "password": "Syötä uusi salasana",
+                    "repeat-password": "Vahvista salasana"
+                }
+            },
+            "security-main": {
+                "title": "Turvallisuus",
+                "subtitle": "Käyttäjähallinta"
+            },
+            "entitySetting-list": {
+                "title": "Asetukset"
+            },
+            "setting-dictionary": {
+                "subtitle": "Hallitse sanakirjan arvoja",
+                "labels": {
+                    "new-value": "Syötä arvo",
+                    "current-values": "Nykyiset arvot",
+                    "value": "Arvo"
+                },
+                "validations": {
+                    "new-value-required": "Pakollinen",
+                    "new-value": "Löytyi duplikaattiarvo"
+                },
+                "placeholders": {
+                    "new-value": "Syötä arvo"
+                }
+            },
+            "settings-detail": {
+                "title": "Asetuksien arvot"
+            },
+            "settingGroup-list": {
+                "title": "Asetukset"
+            },
+            "user-profile": {
+                "title": "Käyttäjäprofiili",
+                "labels": {
+                    "language": "Kieli",
+                    "language-description": "Näyttökieli. Tyhjennä käyttääksesi selaimen kieliasetusta tai järjestelmän oletuskieltä.",
+                    "regional-format": "Alueelliset formaatit",
+                    "regional-format-description": "Alueelliset numero, valuutta, päivämäärä ja aika formaatit. Tyhjennä käyttäksesi selaimen astuksia tai järjestelmän oletusasetuksia.",
+                    "time-zone": "Aikavyöhyke",
+                    "time-zone-description": "Nykyinen aikavyöhyke IANA (tz-tietokanta) muodossa. Valise lähin kaupunki aikavyöhykkeelläsi. Tyhjennä käyttääksesi selaimen asetuksia tai järjestelmän oletusasetuksia.",
+                    "use-time-ago": "Käytä muotoa \"n sitten\" jos mahdollista",
+                    "full-date-threshold-group": "Käytä täyttä aikamuotoa päivämäärille ennen ...",
+                    "full-date-threshold-description": "Aikayksiköiden numeerinen arvo",
+                    "full-date-threshold-unit-description": "Aikayksikkö (esim. tunnit tai vuodet)"
+                },
+                "placeholders": {
+                    "full-date-threshold": "Syötä kynnysarvo",
+                    "full-date-threshold-unit": "Valitse kynnysarvon yksikkö"
+                },
+                "full-date-threshold-units": {
+                    "Never": "Ei koskaan",
+                    "Seconds": "Sekunnit",
+                    "Minutes": "Minuutit",
+                    "Hours": "Tunnit",
+                    "Days": "Päivät",
+                    "Weeks": "Viikot",
+                    "Months": "Kuukaudet",
+                    "Quarters": "Kvartaalit",
+                    "Years": "Vuodet"
+                }
+            }
+        },
+        "templates": {
+            "sampleDataChoose": {
+                "labels": {
+                    "choose-sample-data-type": "Valitse näytetietojen tyyppi",
+                    "size": "koko",
+                    "version": "versio"
+                }
+            },
+            "sampleDataInitialization": {
+                "labels": {
+                    "sample-data-initialization": "Näytetietojen alustus",
+                    "starting-initialization": "Aloitetaan näytetietojen alustaminen...",
+                    "errors": "Virheet",
+                    "start": "Käynnistä",
+                    "end": "Lopeta"
+                }
+            },
+            "licensing": {
+                "license-absent": "Yhteisölisenssi (Community)",
+                "license-present": "{{type}} -lisenssi",
+                "community": "Ajetaan yhteisöversiota, klikkaa pyytääksesi kaupallista lisenssiä.",
+                "expired": "Lisenssisi on vanhentunut {{expirationDate | amParse | date}}, ole hyvä ja uudista se."
+            },
+            "modulesAutoInstallation": {
+                "labels": {
+                    "module-auto-installation": "Moduulien automaatinen asennus",
+                    "loading": "Heataan moduulien tiedot...",
+                    "finished": "Asennus valmis. Käynnistä uudelleen jatkaaksesi.",
+                    "start": "Käynnistä",
+                    "end": "Lopeta"
+                }
+            }
+        },
+        "widgets": {
+            "operations": {
+                "title": "Muutokset",
+                "blade-subtitle": "Muutoshistoria"
+            },
+            "dynamicProperty": {
+                "title": "Dynaamiset ominaisuudet"
+            },
+            "entitySettings": {
+                "title": "Asetukset"
+            },
+            "accountApi": {
+                "title": "API-tilit",
+                "blade-subtitle": "API-tilit"
+            },
+            "accountRoles": {
+                "title": "Roolit",
+                "blade-subtitle": "Hallitse rooleja"
+            }
+        },
+        "dialogs": {
+            "folders-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa valitut kansiot tai tiedostot?"
+            },
+            "properties-save": {
+                "title": "Tallenna muutokset",
+                "message": "Ominaisuuksia on muutettu, haluatko tallentaa muutokset?"
+            },
+            "notification-template-save": {
+                "title": "Tallenna muutokset",
+                "message": "Ilmoituksen mallipohjaa on muutettut, haluatko tallentaa muutokset?"
+            },
+            "role-save": {
+                "title": "Tallenna muutokset",
+                "message": "Roolia on muutettu, haluato tallentaa muutokset?"
+            },
+            "roles-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa valitut roolit?"
+            },
+            "account-save": {
+                "title": "Tallenna muutokset",
+                "message": "Tiliä on muutettu, haluatko tallentaa muutokset?"
+            },
+            "account-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluastko varmasti poistaa valitut tilit?"
+            },
+            "dynamic-property-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluastko varmasti poistaa valitut dynaamiset ominaisuudet?"
+            },
+            "settings-value-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa valitut arvot?"
+            },
+            "settings-save": {
+                "title": "Tallenna muutokset",
+                "message": "Asetuksia on muutettu, haluatko tallentaa muutokset?"
+            },
+            "settings-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluatko varmasti poistaa valuitut asetukset?"
+            },
+            "email-sending-success": {
+                "title": "Lähetys onnistui",
+                "message": "Sähköposti on lähetetty!"
+            },
+            "email-send-error": {
+                "title": "Lähetys epäonnistui",
+                "message": "Sähköpostia ei lähetetty! Virhe: {{error}}"
+            },
+            "dictionary-items-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluastko varmasti poistaa {{quantity}} valittua sanakirjakohdetta?"
+            },
+            "module-action": {
+                "title-install": "Vahvista asennus",
+                "title-update": "Vahvista päivitys",
+                "title-delete": "Vahvista asennuksen poisto",
+                "message0-install": "Olet asentamassa:",
+                "message0-update": "Olet päivittämässä:",
+                "message0-delete": "Olet poistamassa:",
+                "message1-install": "Seuraavat riippuvuudet asennetaan valinnan lisäksi:",
+                "message1-delete": "Seuraavat riippuvaiset moduulit poistetaan valitun lisäksi:",
+                "message2-install": "Asenna valinta ja riippuvuudet?",
+                "message2-update": "Päivitä valinta ja riippuuvuudet?",
+                "message2-delete": "Poista valinta ja KAIKKI siitä riippuvaiset moduulit?"
+            },
+            "module-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluastko varmasti poistaa tämän moduulin asennusken?"
+            },
+            "api-key-delete": {
+                "title": "Vahvista poisto",
+                "message": "Haluastko varmasti poistaa tämän API-avaimen?"
+            },
+            "app-restart": {
+                "title": "Sovelluksen uudelleenkäynnistys",
+                "message": "Haluastko varmasti uudelleenkäynnistää sovelluksen?"
+            }
+        }
+    }
+}
